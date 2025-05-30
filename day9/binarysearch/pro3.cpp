@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-void bubbleSort(int ids[], string titles, int n)
+void bubbleSort(int ids[], string titles[], int n)
 {
     for (int i = 0; i < n - 1; i++)
     {
